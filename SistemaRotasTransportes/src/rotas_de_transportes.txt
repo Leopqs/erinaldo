@@ -1,0 +1,5 @@
+1;Linha Azul;Metrô;Centro
+2;Circular 101;Ônibus;Zona Norte
+3;Expresso Sul;Ônibus;Zona Sul
+4;Linha Vermelha;Metrô;Centro
+5;Trem Intercidades;Trem;Zona Leste
