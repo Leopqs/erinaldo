@@ -12,7 +12,7 @@ public class Main {
         System.out.println("2 - Região (Centro, Zona Norte, etc)");
         System.out.print("Escolha uma opção: ");
         int opcao = scanner.nextInt();
-        scanner.nextLine(); // Limpa o buffer
+        scanner.nextLine();
 
         if (opcao != 1 && opcao != 2) {
             System.out.println("Opção inválida.");
