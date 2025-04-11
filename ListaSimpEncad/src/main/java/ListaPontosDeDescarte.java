@@ -7,7 +7,6 @@ class ListaPontosDeDescarte {
         this.tamanho = 0;
     }
 
-    //inserir um ponto de descarte no final da lista
     public void inserir(PontoDeDescarte pontoDeDescarte) {
         No novoNo = new No(pontoDeDescarte);
 
@@ -23,7 +22,6 @@ class ListaPontosDeDescarte {
         tamanho++;
     }
 
-    //exibir todos os pontos de descarte na lista
     public void exibir() {
         if (inicio == null) {
             System.out.println("Nenhum ponto de descarte encontrado.");
@@ -40,12 +38,10 @@ class ListaPontosDeDescarte {
         }
     }
 
-    //verificar se a lista está vazia
     public boolean estaVazia() {
         return inicio == null;
     }
 
-    // Getter para o tamanho
     public int getTamanho() {
         return tamanho;
     }
