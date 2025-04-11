@@ -1,3 +1,0 @@
-EcoPoint Centro;Rua Principal, 123;Plástico;08:00-18:00
-Recicla Zona Sul;Avenida Secundária, 456;Vidro;09:00-17:00
-Descarte Eletrônico Norte;Travessa Tec, 789;Eletrônicos;10:00-16:00
