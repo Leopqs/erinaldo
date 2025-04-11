@@ -8,7 +8,6 @@ public class No {
     private No anterior;
     private No proximo;
 
-    // Construtor
     public No(int id, String nomeLinha, String tipo, String regiao) {
         this.id = id;
         this.nomeLinha = nomeLinha;
@@ -18,7 +17,6 @@ public class No {
         this.proximo = null;
     }
 
-    // Getters e Setters
     public int getId() { return id; }
     public String getNomeLinha() { return nomeLinha; }
     public String getTipo() { return tipo; }
