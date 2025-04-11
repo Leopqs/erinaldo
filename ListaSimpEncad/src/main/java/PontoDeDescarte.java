@@ -60,7 +60,6 @@ class PontoDeDescarte {
             }
         }
 
-        //Exibir os pontos carregados
         public void exibirPontosCarregados() {
             System.out.println("\nPontos de Descarte Carregados (" + lista.getTamanho() + " encontrados):");
             lista.exibir();
