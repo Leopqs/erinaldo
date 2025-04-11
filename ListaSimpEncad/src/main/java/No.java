@@ -7,7 +7,6 @@ class No {
         this.proximo = null;
     }
 
-    // Getters e Setters
     public PontoDeDescarte getPontoDeDescarte() {
         return pontoDeDescarte;
     }
