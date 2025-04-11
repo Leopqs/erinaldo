@@ -42,7 +42,6 @@ class ListaPontosDeDescarte {
         return inicio == null;
     }
 
-    // Getter para o tamanho
     public int getTamanho() {
         return tamanho;
     }
