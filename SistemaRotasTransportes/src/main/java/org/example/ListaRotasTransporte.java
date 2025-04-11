@@ -7,7 +7,6 @@ import java.io.IOException;
 public class ListaRotasTransporte {
     private No cabeca;
 
-    // Insere um nó no final da lista
     public void inserirNo(int id, String nomeLinha, String tipo, String regiao) {
         No novoNo = new No(id, nomeLinha, tipo, regiao);
         if (cabeca == null) {
@@ -22,7 +21,6 @@ public class ListaRotasTransporte {
         }
     }
 
-    // Carrega rotas do arquivo com filtro (tipo ou região)
     public void carregarRotasDeArquivo(String nomeArquivo, String filtro, boolean filtrarPorTipo) throws IOException {
         try (BufferedReader br = new BufferedReader(new FileReader(nomeArquivo))) {
             String linha;
@@ -43,7 +41,6 @@ public class ListaRotasTransporte {
         }
     }
 
-    // Exibe a lista em ordem (ida)
     public void exibirEmOrdem() {
         if (cabeca == null) {
             System.out.println("Nenhuma rota encontrada.");
@@ -58,7 +55,6 @@ public class ListaRotasTransporte {
         }
     }
 
-    // Exibe a lista em ordem inversa (volta)
     public void exibirEmOrdemInversa() {
         if (cabeca == null) {
             System.out.println("Nenhuma rota encontrada.");
